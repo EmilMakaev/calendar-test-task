@@ -22,11 +22,6 @@
 import { mapGetters } from 'vuex'
 
 export default {
-  data() {
-    return {
-      date: null
-    }
-  },
   computed: {
     ...mapGetters({
       celebrations: 'getCelebrations'
