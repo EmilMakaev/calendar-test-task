@@ -5,7 +5,7 @@
     <ul v-if="celebrations">
       <li
         v-for="(celebration, index) in celebrations.celebrations"
-        v-bind:key="celebration.title"
+        :key="celebration.title"
       >
         <router-link 
           :to="{name: 'datepageIndex',

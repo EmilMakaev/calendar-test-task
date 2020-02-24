@@ -11,10 +11,6 @@
 <script>
 export default {
   props: {
-    index: {
-      type: Number,
-      required: true
-    },
     element: {
       type: Object,
       required: true
